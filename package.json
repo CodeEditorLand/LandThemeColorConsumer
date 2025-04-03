@@ -38,11 +38,11 @@
 	"devDependencies": {
 		"@playform/build": "0.2.1",
 		"@types/glob": "8.1.0",
-		"@types/node": "22.13.14",
-		"esbuild": "0.25.1",
+		"@types/node": "22.14.0",
+		"esbuild": "0.25.2",
 		"execa": "9.5.2",
 		"glob": "11.0.1",
-		"got": "14.4.6",
+		"got": "14.4.7",
 		"rimraf": "6.0.1"
 	},
 	"publishConfig": {
