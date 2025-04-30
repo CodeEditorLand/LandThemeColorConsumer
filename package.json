@@ -1,6 +1,28 @@
 {
 	"name": "@codeeditorland/theme-color-consumer",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Normalizes vscode themes and colors",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandThemeColorConsumer#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandThemeColorConsumer/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandThemeColorConsumer.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "dist/index.js",
 	"scripts": {
 		"compile": "rimraf dist && tsc && esbuild --bundle --minify ./dist/index --outfile=bundle.min.js --format=esm",
@@ -22,5 +44,8 @@
 		"glob": "11.0.2",
 		"got": "14.4.7",
 		"rimraf": "6.0.1"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
