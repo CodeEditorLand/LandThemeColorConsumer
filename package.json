@@ -27,7 +27,7 @@
     "@types/jest": "^26.0.23",
     "@types/node": "^15.6.1",
     "@types/prettier": "^2.2.3",
-    "esbuild": "^0.12.5",
+    "esbuild": "^0.25.0",
     "execa": "^5.0.0",
     "glob": "^7.1.7",
     "got": "^11.8.2",
